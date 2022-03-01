@@ -1,5 +1,7 @@
 /.bundle
 
+/spec/*
+
 /log/*
 /tmp/*
 !/log/.keep
