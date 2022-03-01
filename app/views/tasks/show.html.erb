@@ -1,0 +1,17 @@
+<table class="table table-striped" border="2">
+  <tr>
+    <td><%= @task.text %></td>
+  </tr>
+</table>
+
+<div align="center">
+  <div class="btn-group" role="group" aria-label="Basic example">
+    <%= button_to 'Edit', edit_task_path(@task), method: :get, class: 'btn btn-light'%>
+    <%= button_to 'Delete', task_path(@task), method: :delete, class: 'btn btn-light'%>
+    <%= button_to 'Back', tasks_path, method: :get, class: 'btn btn-light'%>
+  </div>
+</div>
+
+
+
+
