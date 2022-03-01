@@ -1,4 +1,4 @@
-![Unit Tests & Lint](https://github.com/ChtobiUchitsyaNadoBitProfi/task_list/workflows/Unit%20Tests%20&%20Lint/badge.svg)
+![Unit Tests & Lint](https://github.com/Devyatiyarov/Tasklist-online/workflows/Unit%20Tests%20&%20Lint/badge.svg)
 # Task list online
 
 ## Require
