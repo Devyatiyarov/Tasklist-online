@@ -1,24 +1,21 @@
-# README
+![Unit Tests & Lint](https://github.com/ChtobiUchitsyaNadoBitProfi/task_list/workflows/Unit%20Tests%20&%20Lint/badge.svg)
+# Task list online
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Require
+* Ruby 3.0.3
+### PostgreSQL installation
+* sudo apt install postgresql
+* sudo gem install pg
+* sudo -u postgres psql -c "ALTER USER postgres PASSWORD 'postgres';"
+### Set up
+* gem install bundler
+* bundle install
+* bundle exec rake db:create
+* rails db:migrate
+### Rspec
+* bundle exec rspec
+### Rubocop
+* bundle exec rubocop
+### Run
+* rails s
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
