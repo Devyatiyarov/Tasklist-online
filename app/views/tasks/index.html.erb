@@ -1,0 +1,26 @@
+<% if user_signed_in? %>
+  <table class="table table-striped" border="2">
+    <% @tasks.each do |task| %>
+      <div class="col-md-10">
+        <tr>
+          <td>
+            <div class="col-md-10">
+            <%= link_to task.text, task_path(task)%></td>
+<!--                    <td>-->
+<!--                      <div align="right">-->
+<!--                        <div class="btn-group" role="group" aria-label="Basic example">-->
+            <%#= button_to 'Edit', edit_task_path(task), method: :get, class: 'btn btn-light'%>
+            <%#= button_to 'Delete', task_path(task), method: :delete, class: 'btn btn-light'%>
+<!--                        </div>-->
+<!--                      </div>-->
+<!--                    </td>-->
+            </div>
+        </tr>
+      </div>
+    <% end %>
+  </table>
+<% else %>
+
+<% end %>
+
+
