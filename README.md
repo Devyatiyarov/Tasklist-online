@@ -5,13 +5,14 @@
 * Ruby 3.0.3
 ### PostgreSQL installation
 * sudo apt install postgresql
-* sudo gem install pg
 * sudo -u postgres psql -c "ALTER USER postgres PASSWORD 'postgres';"
 ### Set up
 * gem install bundler
 * bundle install
+* sudo apt install yarn
+* bundle exec rails webpacker:install
 * bundle exec rake db:create
-* rails db:migrate
+* rake db:migrate
 ### Rspec
 * bundle exec rspec
 ### Rubocop
